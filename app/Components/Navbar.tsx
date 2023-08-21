@@ -5,13 +5,14 @@ import Link from "next/link"
 
 const Navbar = () => {
       const [navbar, setNavbar] = useState(false);
-    
+
+
     return (
-      <div className="mb-4">
-        <nav className="w-full  top-0 left-0 right-0 z-10 md:pt-4">
+      <div className="mb-4   m-auto w-full sm:container 2xl:max-w-screen-xl">
+        <nav className="w-full  top-0 left-0 right-0 z-10 md:pt-4 ">
           <div className="justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8">
             <div>
-              <div className="flex items-center justify-between py-3 md:py-5 md:block">
+              <div className="flex items-center justify-between py-3 md:py-5 md:block px-4">
                 {/* LOGO */}
                 <Link href="/">
                   <Image src="/logo2.svg" width={200} height={200} alt="Logo de Liliana Vacatello"/>
