@@ -14,7 +14,9 @@ const config: Config = {
         "brown-light": "var(--brown-light)",
         "beige": "var(--beige)",
         "font-navbar": "var(--font-navbar)",
-        "green-intermediate" : "var(--green-intermediate)"
+        "green-intermediate" : "var(--green-intermediate)",
+        "font-white": "var(--font-white)",
+        "bg-branding" : "var(--bg-branding)"
       },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',

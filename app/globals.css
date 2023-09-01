@@ -16,9 +16,12 @@
     --beige: #E6DCCA;
     --font-navbar: #C1C6B5;
     --green-intermediate : #68754A;
+    --font-white : #E6E3DE;
+    --bg-branding : #E6E3DE;
   }
 }
 
 body {
+  background-color: var(--bg-branding);
 
 }

@@ -45,22 +45,22 @@ const Navbar = () => {
                 }`}
               >
                 <ul className="h-screen md:h-auto items-center justify-center md:flex ">
-                  <li className="pb-6 text-xl text-font-navbar py-2 md:px-6 text-center border-b-2 md:border-b-0 md:pb-0  hover:bg-green-intermediate border-green-intermediate  md:hover:text-green-intermediate md:hover:bg-transparent">
+                  <li className="text-green-dark pb-6 text-xl py-2 md:px-6 text-center border-b-2 md:border-b-0 md:pb-0  hover:bg-green-intermediate border-green-intermediate  md:hover:text-green-intermediate md:hover:bg-transparent">
                     <Link href="#about" onClick={() => setNavbar(!navbar)}>
                       Home
                     </Link>
                   </li>
-                  <li className="pb-6 text-xl text-font-navbar py-2 px-6 text-center  border-b-2 md:border-b-0 md:pb-0  hover:bg-green-intermediate border-green-intermediate  md:hover:text-green-intermediate md:hover:bg-transparent">
+                  <li className="pb-6 text-xl text-green-dark py-2 px-6 text-center  border-b-2 md:border-b-0 md:pb-0  hover:bg-green-intermediate border-green-intermediate  md:hover:text-green-intermediate md:hover:bg-transparent">
                     <Link href="#blog" onClick={() => setNavbar(!navbar)}>
                       Sobre Mi
                     </Link>
                   </li>
-                  <li className="pb-6 text-xl text-font-navbar py-2 px-6 text-center  border-b-2 md:border-b-0 md:pb-0  hover:bg-green-intermediate border-green-intermediate  md:hover:text-green-intermediate md:hover:bg-transparent">
+                  <li className="pb-6 text-xl text-green-dark py-2 px-6 text-center  border-b-2 md:border-b-0 md:pb-0  hover:bg-green-intermediate border-green-intermediate  md:hover:text-green-intermediate md:hover:bg-transparent">
                     <Link href="#contact" onClick={() => setNavbar(!navbar)}>
                       Servicios
                     </Link>
                   </li>
-                  <li className="pb-6 text-xl text-font-navbar py-2 px-6 text-center text-white bg-brown-light rounded-full border-b-2 md:border-b-0 md:pb-2  ">
+                  <li className="pb-6 text-xl text-font-navbar py-2 px-6 text-center text-slate-200 bg-brown-light rounded-full border-b-2 md:border-b-0 md:pb-2  ">
                     <Link href="#projects" onClick={() => setNavbar(!navbar)}>
                       Contacto
                     </Link>
