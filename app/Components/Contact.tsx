@@ -3,8 +3,8 @@ import send from '../assets/send.svg'
 import Image from "next/image";
 const Contact = () => {
   return (
-    <section className="bg-beige px-6 py-4 flex flex-col m-auto w-full sm:container 2xl:max-w-screen-xl xl:mx-8 xl:rounded-3xl ">
-      <h3 className="py-5 text-6xl text-green-light font-bold">Contacto</h3>
+    <section className="mt-10 pb-10 bg-beige px-6 py-4 flex flex-col m-auto w-full sm:container 2xl:max-w-screen-xl xl:mx-8 xl:rounded-3xl ">
+      <h3 className="py-6 text-5xl text-green-light font-bold">Contacto</h3>
 
       <form className="flex flex-col justify-center " action="">
         <div className="xl:flex xl:flex-row gap-4">

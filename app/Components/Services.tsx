@@ -2,7 +2,7 @@ import React from 'react'
 import Image from 'next/image'
 const Services = () => {
   return (
-    <section className="flex flex-col justify-center items-center py-10">
+    <section className="bg-beige flex flex-col justify-center items-center pt-10 pb-16 w-[100vw]">
         <h3 className=" text-5xl text-green-dark font-bold px-10 xl:py-10 ">Meditación, mindfullness y bienestar holístico.</h3>
         <div className="  flex flex-col m-auto w-full sm:container 2xl:max-w-screen-xl xl:flex xl:flex-row">
            <article className="flex flex-col justify-center items-center">
